@@ -5,7 +5,7 @@
 }
 
 body {
-  height: 100vh;
+  height: 99vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,17 +18,18 @@ body {
   flex-direction: column;
 }
 button,
-input {
+button,
+{
   all: unset;
   border: 1px solid green;
-  border-radius: 10px;
+  border-radius: 9px;
   padding: 10px 20px;
-  margin: 5px 0;
+  margin: 6px 0;
 }
 button {
   background-color: rgb(30, 200, 250);
 }
 button:hover{
-  background-color: rgb(23, 155, 195);
-  transition: .4s;
+  background-color: rgb(24, 155, 195);
+  transition: .5s;
 }
